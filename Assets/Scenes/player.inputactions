@@ -1,0 +1,34 @@
+{
+    "name": "player",
+    "maps": [
+        {
+            "name": "Playermain",
+            "id": "a9764a34-a76e-4ad7-a9d7-8914c575bb28",
+            "actions": [
+                {
+                    "name": "attack",
+                    "type": "Button",
+                    "id": "a06ac3ce-c161-4e50-84b3-b4f019fad773",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7af46ffe-03df-4074-a307-9dbb75d2ca5d",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
